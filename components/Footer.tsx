@@ -18,7 +18,7 @@ export default function Footer() {
           <p className="text-gray-400 leading-relaxed">
             Centro de eventos ubicado en{" "}
             <strong className="text-white">
-              Labranza - Temuco
+              Labranza, Temuco
             </strong>
             , Región de La Araucanía.
           </p>
@@ -47,31 +47,50 @@ export default function Footer() {
           <ul className="space-y-3 text-gray-400">
 
             <li>
-              <a href="#inicio" className="hover:text-white transition">
+              <a 
+                href="#inicio" 
+                className="hover:text-white transition"
+              >
                 Inicio
               </a>
             </li>
 
+
             <li>
-              <a href="#nosotros" className="hover:text-white transition">
+              <a 
+                href="#nosotros" 
+                className="hover:text-white transition"
+              >
                 Sobre Nosotros
               </a>
             </li>
 
+
             <li>
-              <a href="#servicios" className="hover:text-white transition">
+              <a 
+                href="#servicios" 
+                className="hover:text-white transition"
+              >
                 Servicios
               </a>
             </li>
 
+
             <li>
-              <a href="#galeria" className="hover:text-white transition">
+              <a 
+                href="#galeria" 
+                className="hover:text-white transition"
+              >
                 Galería
               </a>
             </li>
 
+
             <li>
-              <a href="#contacto" className="hover:text-white transition">
+              <a 
+                href="#contacto" 
+                className="hover:text-white transition"
+              >
                 Contacto
               </a>
             </li>
@@ -79,8 +98,6 @@ export default function Footer() {
           </ul>
 
         </div>
-
-
 
 
 
@@ -98,7 +115,7 @@ export default function Footer() {
 
 
             <p>
-              Labranza - Temuco
+              Labranza, Temuco
               <br />
               Región de La Araucanía
             </p>
@@ -128,13 +145,14 @@ export default function Footer() {
               <br />
 
               <a
-                href="mailto:contacto@altosdebotrolhue.cl"
+                href="mailto:altosbotrolhue@gmail.com"
                 className="hover:text-white transition"
               >
-                contacto@altosdebotrolhue.cl
+                altosbotrolhue@gmail.com
               </a>
 
             </p>
+
 
 
 
@@ -193,6 +211,7 @@ export default function Footer() {
               </div>
 
             </div>
+
 
 
 
