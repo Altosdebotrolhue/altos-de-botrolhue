@@ -4,41 +4,30 @@ export default function About() {
       id="nosotros"
       className="py-24 px-6 bg-[#faf8f3]"
     >
-
       <div className="max-w-6xl mx-auto">
-
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
 
-
           {/* Imagen */}
-
           <div className="
             rounded-3xl
             overflow-hidden
             shadow-xl
           ">
-
             <img
               src="/galeria1.jpg"
-              alt="Altos de Botrolhue"
+              alt="Altos de Botrolhue, centro de eventos en Labranza Temuco"
               className="
                 w-full
                 h-[450px]
                 object-cover
               "
             />
-
           </div>
 
 
-
-
-
           {/* Texto */}
-
           <div>
-
 
             <h2 className="
               text-4xl
@@ -51,7 +40,6 @@ export default function About() {
             </h2>
 
 
-
             <p className="
               text-gray-700
               text-lg
@@ -59,10 +47,9 @@ export default function About() {
               mb-5
             ">
               Altos de Botrolhue es un centro de eventos ubicado en
-              Labranza, Temuco, creado para recibir momentos
-              importantes y transformarlos en recuerdos inolvidables.
+              Labranza, Temuco, creado para recibir celebraciones
+              especiales en un entorno natural, tranquilo y acogedor.
             </p>
-
 
 
             <p className="
@@ -71,11 +58,11 @@ export default function About() {
               leading-relaxed
               mb-5
             ">
-              Nuestro espacio combina naturaleza, tranquilidad y
-              comodidad, ofreciendo un entorno ideal para matrimonios,
-              cumpleaños, celebraciones familiares y eventos especiales.
+              Nuestro espacio está pensado para matrimonios, cumpleaños,
+              celebraciones familiares, eventos corporativos y diferentes
+              ocasiones especiales, combinando naturaleza, comodidad y
+              una atención cercana para nuestros invitados.
             </p>
-
 
 
             <p className="
@@ -83,11 +70,11 @@ export default function About() {
               text-lg
               leading-relaxed
             ">
-              Trabajamos para entregar una experiencia cercana y
-              personalizada, cuidando cada detalle para que cada
-              celebración sea única.
+              Nos preocupamos de cada detalle para entregar una experiencia
+              personalizada, acompañando a nuestros clientes en cada etapa
+              de su celebración y creando recuerdos únicos junto a quienes
+              más quieren.
             </p>
-
 
 
             <div className="
@@ -102,7 +89,7 @@ export default function About() {
                 font-semibold
                 text-gray-900
               ">
-                Un lugar especial para celebrar grandes momentos.
+                Un espacio único en Temuco para celebrar momentos inolvidables.
               </p>
 
             </div>
@@ -110,13 +97,9 @@ export default function About() {
 
           </div>
 
-
         </div>
 
-
       </div>
-
-
     </section>
   );
 }
