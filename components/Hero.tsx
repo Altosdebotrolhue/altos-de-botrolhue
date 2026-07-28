@@ -38,7 +38,6 @@ export default function Hero() {
       />
 
 
-
       {/* Contenido */}
 
       <div
@@ -52,7 +51,6 @@ export default function Hero() {
         "
       >
 
-
         <p
           className="
             uppercase
@@ -63,7 +61,7 @@ export default function Hero() {
             mb-6
           "
         >
-          Centro de Eventos
+          Centro de Eventos en Temuco
         </p>
 
 
@@ -76,9 +74,11 @@ export default function Hero() {
             leading-tight
           "
         >
-          Altos de
+          Celebra momentos
           <br />
-          Botrolhue
+          inolvidables en
+          <br />
+          Altos de Botrolhue
         </h1>
 
 
@@ -95,9 +95,9 @@ export default function Hero() {
           "
         >
           Un espacio rodeado de naturaleza en Labranza, Temuco,
-          ideal para matrimonios, celebraciones y eventos inolvidables.
+          ideal para matrimonios, cumpleaños, celebraciones familiares
+          y eventos especiales.
         </p>
-
 
 
 
@@ -120,18 +120,19 @@ export default function Hero() {
             target="_blank"
             rel="noopener noreferrer"
             className="
-              bg-green-700
-              hover:bg-green-800
+              bg-green-600
+              hover:bg-green-700
               text-white
-              px-9
+              px-10
               py-4
               rounded-full
-              font-semibold
+              font-bold
+              text-lg
               transition
               shadow-xl
             "
           >
-            Consultar disponibilidad
+            💬 Consultar disponibilidad
           </a>
 
 
