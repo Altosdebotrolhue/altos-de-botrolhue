@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Altos de Botrolhue | Centro de Eventos en Labranza, Temuco",
   description:
     "Altos de Botrolhue es un centro de eventos ubicado en Labranza, Temuco. Realizamos matrimonios, cumpleaños, celebraciones familiares y eventos especiales en un entorno natural.",
+  verification: {
+    google: "KDQcVlOdVjEFRuBZPPlz-kH-H_piHmLgFwapE9ku8hs",
+  },
 };
 
 export default function RootLayout({
