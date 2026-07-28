@@ -49,7 +49,7 @@ export default function Gallery() {
               text-gray-900
             "
           >
-            Galería
+            Momentos inolvidables
           </h2>
 
 
@@ -62,11 +62,14 @@ export default function Gallery() {
               mx-auto
             "
           >
-            Conoce nuestros espacios, detalles y experiencias
-            que hacen único a Altos de Botrolhue.
+            Conoce algunos momentos vividos en Altos de Botrolhue,
+            un centro de eventos rodeado de naturaleza en Labranza,
+            Temuco, ideal para matrimonios, celebraciones y eventos especiales.
           </p>
 
         </div>
+
+
 
 
 
@@ -96,7 +99,7 @@ export default function Gallery() {
 
               <img
                 src={image}
-                alt="Altos de Botrolhue"
+                alt="Matrimonios, celebraciones y eventos en Altos de Botrolhue, Labranza Temuco"
                 className="
                   w-full
                   h-full
@@ -110,6 +113,36 @@ export default function Gallery() {
             </div>
 
           ))}
+
+        </div>
+
+
+
+
+
+        {/* Botón final */}
+
+        <div className="text-center mt-14">
+
+          <a
+            href="https://wa.me/56926194264?text=Hola,%20quisiera%20consultar%20disponibilidad%20para%20realizar%20un%20evento."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+              inline-block
+              bg-green-700
+              hover:bg-green-800
+              text-white
+              px-10
+              py-4
+              rounded-full
+              font-semibold
+              shadow-lg
+              transition
+            "
+          >
+            Consulta disponibilidad para tu evento
+          </a>
 
         </div>
 
