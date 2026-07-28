@@ -23,26 +23,6 @@ export default function Gallery() {
   ];
 
 
-  const videos = [
-    {
-      src: "/video1.mp4",
-      title: "Cómo llegar a Altos de Botrolhue",
-      description: "Conoce nuestra ubicación y el camino hacia nuestro centro de eventos.",
-    },
-    {
-      src: "/video2.mp4",
-      title: "Nuestros espacios",
-      description: "Descubre los ambientes preparados para tus celebraciones.",
-    },
-    {
-      src: "/video3.mp4",
-      title: "Momentos especiales",
-      description: "Revive experiencias y celebraciones realizadas en nuestro espacio.",
-    },
-  ];
-
-
-
   return (
 
     <section
@@ -55,7 +35,6 @@ export default function Gallery() {
     >
 
       <div className="max-w-7xl mx-auto">
-
 
 
         {/* Título */}
@@ -87,27 +66,11 @@ export default function Gallery() {
             que hacen único a Altos de Botrolhue.
           </p>
 
-
         </div>
 
 
 
-
-
         {/* Fotos */}
-
-        <h3
-          className="
-            text-3xl
-            font-bold
-            text-gray-900
-            mb-8
-          "
-        >
-          Fotografías
-        </h3>
-
-
 
         <div
           className="
@@ -115,7 +78,6 @@ export default function Gallery() {
             gap-6
             sm:grid-cols-2
             lg:grid-cols-3
-            mb-24
           "
         >
 
@@ -149,118 +111,10 @@ export default function Gallery() {
 
           ))}
 
-
-        </div>
-
-
-
-
-
-        {/* Videos */}
-
-        <h3
-          className="
-            text-3xl
-            font-bold
-            text-gray-900
-            mb-8
-          "
-        >
-          Videos
-        </h3>
-
-
-
-
-        <div
-          className="
-            grid
-            gap-8
-            md:grid-cols-2
-            lg:grid-cols-3
-          "
-        >
-
-
-          {videos.map((video) => (
-
-            <div
-              key={video.src}
-              className="
-                bg-white
-                rounded-3xl
-                overflow-hidden
-                shadow-lg
-                border
-                border-gray-100
-              "
-            >
-
-
-              <video
-                controls
-                preload="metadata"
-                className="
-                  w-full
-                  aspect-video
-                  bg-black
-                "
-              >
-
-                <source
-                  src={video.src}
-                  type="video/mp4"
-                />
-
-                Tu navegador no soporta videos.
-
-              </video>
-
-
-
-
-              <div
-                className="
-                  p-6
-                "
-              >
-
-                <h4
-                  className="
-                    text-xl
-                    font-bold
-                    text-gray-900
-                    mb-2
-                  "
-                >
-                  {video.title}
-                </h4>
-
-
-                <p
-                  className="
-                    text-gray-600
-                    leading-relaxed
-                  "
-                >
-                  {video.description}
-                </p>
-
-
-              </div>
-
-
-            </div>
-
-
-          ))}
-
-
         </div>
 
 
       </div>
-
 
     </section>
 
