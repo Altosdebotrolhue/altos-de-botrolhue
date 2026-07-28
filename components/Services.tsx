@@ -4,32 +4,32 @@ export default function Services() {
     {
       titulo: "Matrimonios",
       descripcion:
-        "Un espacio especial para celebrar uno de los días más importantes de tu vida, rodeado de naturaleza y tranquilidad.",
+        "Celebra tu matrimonio en un centro de eventos en Labranza, Temuco, con un entorno natural, tranquilo y pensado para crear recuerdos inolvidables.",
     },
     {
       titulo: "Cumpleaños",
       descripcion:
-        "Celebraciones para todas las edades con ambientes cómodos y preparados para disfrutar junto a tus invitados.",
+        "Realizamos celebraciones de cumpleaños para todas las edades, con espacios cómodos para disfrutar junto a familiares y amigos.",
     },
     {
       titulo: "Eventos Familiares",
       descripcion:
-        "Reuniones y celebraciones familiares en un entorno acogedor pensado para compartir grandes momentos.",
+        "Un lugar acogedor para reuniones familiares, aniversarios y celebraciones especiales en un ambiente tranquilo y rodeado de naturaleza.",
     },
     {
       titulo: "Eventos Corporativos",
       descripcion:
-        "Espacios ideales para reuniones, capacitaciones, actividades empresariales y encuentros especiales.",
+        "Espacios preparados para empresas, reuniones, actividades corporativas y encuentros profesionales en un entorno diferente.",
     },
     {
       titulo: "Celebraciones Especiales",
       descripcion:
-        "Baby showers, aniversarios y eventos personalizados adaptados a cada ocasión.",
+        "Baby showers, aniversarios y eventos personalizados adaptados a cada ocasión, cuidando cada detalle de tu celebración.",
     },
     {
       titulo: "Áreas Verdes",
       descripcion:
-        "Amplios espacios exteriores para disfrutar la naturaleza y crear una experiencia inolvidable.",
+        "Disfruta de amplios espacios exteriores rodeados de naturaleza para crear una experiencia única junto a tus invitados.",
     },
   ];
 
@@ -57,7 +57,7 @@ export default function Services() {
               text-gray-900
             "
           >
-            Nuestros Servicios
+            Servicios para Eventos en Temuco
           </h2>
 
 
@@ -70,13 +70,13 @@ export default function Services() {
               mx-auto
             "
           >
-            Espacios preparados para crear celebraciones únicas,
-            con la comodidad y tranquilidad que tu evento merece.
+            En Altos de Botrolhue ofrecemos un espacio ideal para
+            matrimonios, cumpleaños, eventos familiares y celebraciones
+            especiales en Labranza, Temuco.
           </p>
 
 
         </div>
-
 
 
 
