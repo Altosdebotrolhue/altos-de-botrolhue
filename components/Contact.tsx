@@ -2,11 +2,8 @@
 
 import { useForm, ValidationError } from "@formspree/react";
 
-
 export default function Contact() {
-
   const [state, handleSubmit] = useForm("mvzelovl");
-
 
   return (
     <section
@@ -17,9 +14,7 @@ export default function Contact() {
         bg-[#faf8f3]
       "
     >
-
       <div className="max-w-6xl mx-auto">
-
 
         <div className="text-center mb-14">
 
@@ -33,7 +28,6 @@ export default function Contact() {
           >
             Contáctanos
           </h2>
-
 
           <p
             className="
@@ -49,9 +43,6 @@ export default function Contact() {
         </div>
 
 
-
-
-
         <div
           className="
             grid
@@ -59,7 +50,6 @@ export default function Contact() {
             gap-10
           "
         >
-
 
           {/* Información */}
 
@@ -106,7 +96,15 @@ export default function Contact() {
 
 
               <p>
-                contacto@altosdebotrolhue.cl
+                <a
+                  href="mailto:Altosbotrolhue@gmail.com"
+                  className="
+                    hover:text-green-700
+                    transition
+                  "
+                >
+                  Altosbotrolhue@gmail.com
+                </a>
               </p>
 
 
@@ -148,9 +146,6 @@ export default function Contact() {
 
 
 
-
-
-
           {/* Formulario */}
 
           <div
@@ -161,7 +156,6 @@ export default function Contact() {
               shadow-lg
             "
           >
-
 
             <h3
               className="
