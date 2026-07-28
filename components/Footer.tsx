@@ -85,6 +85,7 @@ export default function Footer() {
 
 
 
+
         {/* Contacto */}
         <div>
 
@@ -138,7 +139,65 @@ export default function Footer() {
 
 
 
-            <p>
+            {/* Redes Sociales */}
+
+            <div className="pt-3">
+
+              <p className="mb-3">
+                Síguenos:
+              </p>
+
+
+              <div className="flex gap-3">
+
+
+                <a
+                  href="https://www.instagram.com/altos_de_botrolhue/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+                    bg-pink-600
+                    hover:bg-pink-700
+                    text-white
+                    px-5
+                    py-2
+                    rounded-full
+                    font-semibold
+                    transition
+                  "
+                >
+                  Instagram
+                </a>
+
+
+
+                <a
+                  href="https://www.facebook.com/centrodeeventosdf/?locale=es_LA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+                    bg-blue-700
+                    hover:bg-blue-800
+                    text-white
+                    px-5
+                    py-2
+                    rounded-full
+                    font-semibold
+                    transition
+                  "
+                >
+                  Facebook
+                </a>
+
+
+              </div>
+
+            </div>
+
+
+
+
+            <p className="pt-3">
               Atención:
               <br />
               Lunes a Domingo
@@ -148,6 +207,7 @@ export default function Footer() {
 
 
           </div>
+
 
 
 
@@ -176,6 +236,7 @@ export default function Footer() {
 
 
       </div>
+
 
 
 
