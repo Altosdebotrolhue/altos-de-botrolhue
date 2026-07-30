@@ -19,16 +19,7 @@ export const metadata: Metadata = {
   title: "Altos de Botrolhue | Centro de Eventos en Labranza, Temuco",
 
   description:
-    "Centro de eventos en Labranza, Temuco, rodeado de naturaleza. Realizamos matrimonios, cumpleaños, celebraciones familiares, eventos corporativos y celebraciones especiales.",
-
-  keywords: [
-    "centro de eventos Temuco",
-    "centro de eventos Labranza",
-    "matrimonios Temuco",
-    "eventos Temuco",
-    "celebraciones Temuco",
-    "Altos de Botrolhue",
-  ],
+    "Altos de Botrolhue es un centro de eventos en Labranza, Temuco, rodeado de naturaleza. Realizamos matrimonios, cumpleaños, celebraciones familiares, eventos corporativos y eventos especiales.",
 
   authors: [
     {
@@ -36,10 +27,19 @@ export const metadata: Metadata = {
     },
   ],
 
+  alternates: {
+    canonical: "https://altos-de-botrolhue.vercel.app/",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
   openGraph: {
     title: "Altos de Botrolhue | Centro de Eventos en Temuco",
     description:
-      "Celebra matrimonios, cumpleaños y eventos especiales en un entorno natural en Labranza, Temuco.",
+      "Celebra matrimonios, cumpleaños, celebraciones familiares y eventos especiales en un entorno natural en Labranza, Temuco.",
     url: "https://altos-de-botrolhue.vercel.app/",
     siteName: "Altos de Botrolhue",
     locale: "es_CL",
