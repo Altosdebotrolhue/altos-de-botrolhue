@@ -1,323 +1,137 @@
-"use client";
-
-import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("mvzelovl");
-
   return (
     <section
       id="contacto"
-      className="
-        py-24
-        px-6
-        bg-[#faf8f3]
-      "
+      className="bg-[#faf8f3] px-6 py-20"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="mx-auto max-w-6xl">
 
-        <div className="text-center mb-14">
+        {/* Encabezado */}
 
-          <h2
-            className="
-              text-4xl
-              md:text-5xl
-              font-bold
-              text-gray-900
-            "
-          >
+        <div className="mb-12 text-center">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-green-800">
+            Estamos para ayudarte
+          </p>
+
+          <h2 className="text-4xl font-bold text-gray-900 md:text-5xl">
             Contáctanos
           </h2>
 
-          <p
-            className="
-              mt-5
-              text-gray-600
-              text-lg
-            "
-          >
-            Estamos preparados para ayudarte a organizar
-            tu próximo evento.
+          <p className="mx-auto mt-5 max-w-2xl text-lg text-gray-600">
+            Estamos disponibles para resolver tus consultas
+            y ayudarte a organizar tu próximo evento.
           </p>
-
         </div>
 
+        {/* Tarjeta de información */}
 
         <div
           className="
-            grid
-            md:grid-cols-2
-            gap-10
+            mx-auto
+            max-w-4xl
+            rounded-3xl
+            border
+            border-stone-200
+            bg-white
+            p-8
+            shadow-lg
+            md:p-12
           "
         >
+          <div className="grid gap-10 md:grid-cols-2">
 
-          {/* Información */}
+            {/* Datos del recinto */}
 
-          <div
-            className="
-              bg-white
-              rounded-3xl
-              p-8
-              shadow-lg
-            "
-          >
+            <div>
+              <h3 className="mb-6 text-2xl font-bold text-gray-900">
+                Altos de Botrolhue
+              </h3>
 
-            <h3
-              className="
-                text-2xl
-                font-bold
-                text-gray-900
-                mb-8
-              "
-            >
-              Altos de Botrolhue
-            </h3>
+              <div className="space-y-6 text-gray-700">
 
+                <div>
+                  <p className="mb-1 font-semibold text-gray-900">
+                    Ubicación
+                  </p>
 
-            <div
-              className="
-                space-y-5
-                text-gray-700
-              "
-            >
+                  <p>
+                    Labranza, Temuco
+                    <br />
+                    Región de La Araucanía
+                  </p>
+                </div>
 
-              <p>
-                Labranza, Temuco
-                <br />
-                Región de La Araucanía
-              </p>
+                <div>
+                  <p className="mb-1 font-semibold text-gray-900">
+                    Horario de atención
+                  </p>
 
-
-              <p>
-                WhatsApp:
-                <br />
-                +56 9 2619 4264
-              </p>
-
-
-              <p>
-                <a
-                  href="mailto:Altosbotrolhue@gmail.com"
-                  className="
-                    hover:text-green-700
-                    transition
-                  "
-                >
-                  Altosbotrolhue@gmail.com
-                </a>
-              </p>
-
-
-              <p>
-                Atención:
-                <br />
-                Lunes a Domingo
-                <br />
-                09:00 - 20:00 hrs
-              </p>
-
-
-            </div>
-
-
-
-            <a
-              href="https://wa.me/56926194264?text=Hola,%20quisiera%20consultar%20disponibilidad%20para%20realizar%20un%20evento."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="
-                inline-block
-                mt-8
-                bg-green-700
-                hover:bg-green-800
-                text-white
-                px-8
-                py-3
-                rounded-full
-                font-semibold
-                transition
-              "
-            >
-              Consultar por WhatsApp
-            </a>
-
-
-          </div>
-
-
-
-          {/* Formulario */}
-
-          <div
-            className="
-              bg-white
-              rounded-3xl
-              p-8
-              shadow-lg
-            "
-          >
-
-            <h3
-              className="
-                text-2xl
-                font-bold
-                text-gray-900
-                mb-6
-              "
-            >
-              Solicita información
-            </h3>
-
-
-
-            {state.succeeded ? (
-
-              <div
-                className="
-                  text-center
-                  py-10
-                "
-              >
-
-                <h4
-                  className="
-                    text-2xl
-                    font-bold
-                    text-green-700
-                  "
-                >
-                  Consulta enviada
-                </h4>
-
-
-                <p className="mt-3 text-gray-600">
-                  Gracias por contactarnos.
-                  Te responderemos lo antes posible.
-                </p>
+                  <p>
+                    Lunes a Domingo
+                    <br />
+                    09:00 - 20:00 hrs
+                  </p>
+                </div>
 
               </div>
+            </div>
 
+            {/* Medios de contacto */}
 
-            ) : (
+            <div>
+              <h3 className="mb-6 text-2xl font-bold text-gray-900">
+                Información de contacto
+              </h3>
 
+              <div className="space-y-6 text-gray-700">
 
-              <form
-                onSubmit={handleSubmit}
-                className="space-y-4"
-              >
+                <div>
+                  <p className="mb-1 font-semibold text-gray-900">
+                    WhatsApp
+                  </p>
 
+                  <a
+                    href="https://wa.me/56926194264"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition hover:text-green-700"
+                  >
+                    +56 9 2619 4264
+                  </a>
+                </div>
 
-                <input
-                  type="text"
-                  name="nombre"
-                  placeholder="Nombre"
-                  required
-                  className="
-                    w-full
-                    border
-                    rounded-xl
-                    px-4
-                    py-3
-                    focus:outline-none
-                    focus:ring-2
-                    focus:ring-green-600
-                  "
-                />
+                <div>
+                  <p className="mb-1 font-semibold text-gray-900">
+                    Correo electrónico
+                  </p>
 
+                  <a
+                    href="mailto:Altosbotrolhue@gmail.com"
+                    className="break-all transition hover:text-green-700"
+                  >
+                    Altosbotrolhue@gmail.com
+                  </a>
+                </div>
 
+                <div>
+                  <p className="mb-1 font-semibold text-gray-900">
+                    Consultas
+                  </p>
 
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Correo"
-                  required
-                  className="
-                    w-full
-                    border
-                    rounded-xl
-                    px-4
-                    py-3
-                    focus:outline-none
-                    focus:ring-2
-                    focus:ring-green-600
-                  "
-                />
+                  <p className="text-sm leading-relaxed text-gray-600">
+                    Puedes escribirnos directamente por WhatsApp
+                    o correo electrónico para resolver cualquier duda.
+                  </p>
+                </div>
 
-
-                <ValidationError
-                  prefix="Correo"
-                  field="email"
-                  errors={state.errors}
-                />
-
-
-
-                <input
-                  type="text"
-                  name="evento"
-                  placeholder="Tipo de evento"
-                  className="
-                    w-full
-                    border
-                    rounded-xl
-                    px-4
-                    py-3
-                  "
-                />
-
-
-
-                <textarea
-                  name="mensaje"
-                  placeholder="Cuéntanos sobre tu evento"
-                  rows={4}
-                  required
-                  className="
-                    w-full
-                    border
-                    rounded-xl
-                    px-4
-                    py-3
-                  "
-                />
-
-
-
-                <button
-                  type="submit"
-                  disabled={state.submitting}
-                  className="
-                    w-full
-                    bg-green-700
-                    hover:bg-green-800
-                    disabled:opacity-50
-                    text-white
-                    py-3
-                    rounded-xl
-                    font-semibold
-                    transition
-                  "
-                >
-                  {state.submitting
-                    ? "Enviando..."
-                    : "Enviar consulta"}
-                </button>
-
-
-              </form>
-
-            )}
-
+              </div>
+            </div>
 
           </div>
-
-
         </div>
 
-
       </div>
-
-
     </section>
   );
 }
